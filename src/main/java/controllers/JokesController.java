@@ -8,6 +8,7 @@ import services.JokeService;
 
 @Controller
 public class JokesController {
+
     private final JokeService jokeService;
 
     public JokesController(JokeService jokeService) {
