@@ -1,10 +1,9 @@
-package controllers;
+package com.example.spring5jokesappv2.controllers;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.spring5jokesappv2.services.JokeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import services.JokeService;
 
 @Controller
 public class JokesController {
